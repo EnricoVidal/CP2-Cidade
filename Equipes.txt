@@ -1,0 +1,8 @@
+===== EQUIPES =====
+
+RM: XXXXXXX | Nome: 
+RM: XXXXXXX | Nome: 
+RM: XXXXXXX | Nome: 
+RM: XXXXXXX | Nome: 
+
+Link GitHub Pages: https://SEU-USUARIO.github.io/cp2/
