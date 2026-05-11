@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../src/css/estilo.css">
+    <title>PataFeliz | Contato</title>
+</head>
+<body>
+
+    <div id="conteudo" style="display:block;">
+
+        <!-- HEADER -->
+        <header>
+            <img src="../src/assets/img/logo.png" alt="Logo" id="logo"
+                 onerror="this.outerHTML='<span style=\'font-size:2rem\'>🐾</span>';">
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./portifolio.html">Portfólio</a></li>
+                    <li><a href="./sobre.html">Sobre</a></li>
+                    <li><a href="./contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- FORMULÁRIO -->
+        <section id="contato-form">
+            <h1>Fale Conosco 🐾</h1>
+            <p>Tem alguma dúvida? Manda uma mensagem pra gente!</p>
+
+            <input type="text"  id="nome"      placeholder="Seu nome">
+            <input type="email" id="email"     placeholder="Seu e-mail">
+            <textarea           id="descricao" placeholder="Sua mensagem..."></textarea>
+
+            <button onclick="enviarFormulario()">Enviar Mensagem</button>
+
+            <p id="msg-enviado">✅ Mensagem enviada com sucesso! Entraremos em contato em breve.</p>
+        </section>
+
+        <!-- FOOTER -->
+        <footer>
+            <div class="footer-grid">
+                <div>
+                    <h3>🐾 PataFeliz</h3>
+                    <p>Seu pet merece o melhor!</p>
+                </div>
+                <div>
+                    <h3>Contato</h3>
+                    <p>📞 (11) 98765-4321</p>
+                    <p>✉️ contato@patafeliz.com.br</p>
+                </div>
+                <div>
+                    <h3>Redes Sociais</h3>
+                    <a href="#">📸 Instagram</a>
+                    <a href="#">👍 Facebook</a>
+                    <a href="#">🎵 TikTok</a>
+                </div>
+                <div>
+                    <h3>Links Rápidos</h3>
+                    <a href="../index.html">Home</a>
+                    <a href="./portifolio.html">Portfólio</a>
+                    <a href="./sobre.html">Sobre</a>
+                </div>
+            </div>
+            <div class="footer-copy">
+                <p>&copy; 2025 PataFeliz — Todos os direitos reservados.</p>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="../src/js/script.js"></script>
+</body>
+</html>

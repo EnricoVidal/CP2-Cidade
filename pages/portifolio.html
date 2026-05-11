@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../src/css/estilo.css">
+    <title>PataFeliz | Portfólio</title>
+</head>
+<body>
+
+    <div id="conteudo" style="display:block;">
+
+        <!-- HEADER -->
+        <header>
+            <img src="../src/assets/img/logo.png" alt="Logo" id="logo"
+                 onerror="this.outerHTML='<span style=\'font-size:2rem\'>🐾</span>';">
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./portifolio.html">Portfólio</a></li>
+                    <li><a href="./sobre.html">Sobre</a></li>
+                    <li><a href="./contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- CARDS DE PRODUTOS -->
+        <section id="destaques">
+            <h2>Nossos Produtos</h2>
+            <div class="grid-cards" id="lista-produtos"></div>
+        </section>
+
+        <!-- TABELA DE PREÇOS / PROMOÇÕES -->
+        <section id="tabela-precos">
+            <h2>Tabela de Preços e Promoções</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Serviço / Produto</th>
+                        <th>Preço Normal</th>
+                        <th>Promoção</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Banho & Tosa (pequeno porte)</td>
+                        <td>R$ 60,00</td>
+                        <td class="destaque-preco">R$ 45,00 🔥</td>
+                    </tr>
+                    <tr>
+                        <td>Banho & Tosa (médio porte)</td>
+                        <td>R$ 90,00</td>
+                        <td class="destaque-preco">R$ 70,00 🔥</td>
+                    </tr>
+                    <tr>
+                        <td>Consulta Veterinária</td>
+                        <td>R$ 150,00</td>
+                        <td>—</td>
+                    </tr>
+                    <tr>
+                        <td>Ração Premium (15kg)</td>
+                        <td>R$ 220,00</td>
+                        <td class="destaque-preco">R$ 189,90 🔥</td>
+                    </tr>
+                    <tr>
+                        <td>Hotel para Pets (diária)</td>
+                        <td>R$ 80,00</td>
+                        <td>—</td>
+                    </tr>
+                    <tr>
+                        <td>Adestramento (pacote 4 aulas)</td>
+                        <td>R$ 400,00</td>
+                        <td class="destaque-preco">R$ 320,00 🔥</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- FOOTER -->
+        <footer>
+            <div class="footer-grid">
+                <div>
+                    <h3>🐾 PataFeliz</h3>
+                    <p>Seu pet merece o melhor!</p>
+                </div>
+                <div>
+                    <h3>Contato</h3>
+                    <p>📞 (11) 98765-4321</p>
+                    <p>✉️ contato@patafeliz.com.br</p>
+                </div>
+                <div>
+                    <h3>Redes Sociais</h3>
+                    <a href="#">📸 Instagram</a>
+                    <a href="#">👍 Facebook</a>
+                    <a href="#">🎵 TikTok</a>
+                </div>
+                <div>
+                    <h3>Links Rápidos</h3>
+                    <a href="../index.html">Home</a>
+                    <a href="./sobre.html">Sobre</a>
+                    <a href="./contato.html">Contato</a>
+                </div>
+            </div>
+            <div class="footer-copy">
+                <p>&copy; 2025 PataFeliz — Todos os direitos reservados.</p>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="../src/js/script.js"></script>
+</body>
+</html>
